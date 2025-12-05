@@ -16,7 +16,7 @@ A Docker image is a lightweight, standalone, and executable package that contain
 
 
 ## For Example: **🏠 The Household Shipping Analogy**
-![alt text](ex1.png)\
+![alt text](ex1.png)
 
 The image illustrates two methods for moving house items from Source House A to Destination House B:
 
