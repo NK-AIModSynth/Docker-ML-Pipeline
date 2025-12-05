@@ -1,10 +1,10 @@
 # Docker-ML-Pipeline
-# Docker
-    
+
+## Docker  
 Docker is an open platform for Developing, Shipping & Running Application.
 Docker enable you to seperate your applications from your infrastructure so you can deliver software quickly.
 
-Docker methodologies fro shipping, testing & deploying code quickly, so you can significantly reduce the delay between a writing code and running it in production enviroments.
+Docker methodologies for shipping, testing & deploying code quickly, so you can significantly reduce the delay between a writing code and running it in production enviroments.
 
 ## Docker Container: 
 A way to package a application with all necessaru library, dependencies and configuration. It is a protable artifact property which can be easily share & move package to any enviroments. It makes developement and deployment more easy and efficient.
@@ -15,8 +15,9 @@ A Docker Container is a running instance of a Docker Image. When you execute the
 A Docker image is a lightweight, standalone, and executable package that contains everything needed to run a piece of software, including the code, runtime, system tools, system libraries, and settings.
 
 
-## For Example :    🏠 The Household Shipping Analogy
-![alt text](ex1.png)
+## For Example: **🏠 The Household Shipping Analogy**
+![alt text](ex1.png)\
+
 The image illustrates two methods for moving house items from Source House A to Destination House B:
 
 ### 1. Inefficient Method (Time-Consuming):
@@ -27,7 +28,7 @@ Shipping household items one by one (e.g., a lamp and a sofa separately) is depi
 
 The items are first consolidated through Packing into a single, comprehensive transport unit (the Truck). This consolidation enables an Efficient & Rapid Process for transferring the entire collection to the destination.
 
-Upon arrival at Destination House B, the contents are simply Unpacked for immediate use.
+Upon arrival at Destination House B, the contents are simply Unpacked for immediate use. Below is the same example that is consistent with this.
 
 
 ## 📦 Sharing Your AI Chatbot App with Docker
@@ -96,7 +97,7 @@ Service Communication: It automatically creates a network for your services, all
 ### Process
 1. Open a docker web app at your system
     
-2. Create a Dockerfile and add all the necessary commands to run you applications as follow. 
+2. Create a Dockerfile(At your app location) and add all the necessary commands to run you applications as follow. 
 ```
     FROM python:3.8
     COPY . /app
