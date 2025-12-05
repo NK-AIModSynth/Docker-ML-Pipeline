@@ -85,7 +85,7 @@ Instead of running each container individually using complex docker run commands
 
 ### 🎯 Why Use Docker Compose?
 - Simplifies Development: You can spin up a complex, multi-service environment (like a web app connected to a database and a message queue) with one command.\
-- Consistency: It ensures that every team member, and every environment (dev, staging), runs the exact same setup.\
+- Consistency: It ensures that every team member, and every environment (dev, staging), runs the exact same setup.
 - Service Communication: It automatically creates a network for your services, allowing them to communicate using their service names without manual IP configuration.
 
 ## 🏗️ Process to use Docker
@@ -123,9 +123,7 @@ Instead of running each container individually using complex docker run commands
     -Right 5050: Container port
 
 6. How to Access the App\
-Once you run above command, you would typically access the application by navigating to the following address in your web browser:
-
-http://localhost:5050 (or the IP address of the host machine followed by :5050).
+Once you run above command, you would typically access the application by navigating to the following address in your web browser: http://localhost:5050 (or the IP address of the host machine followed by :5050).
 
 7. Stop a Docker image;
 ```
