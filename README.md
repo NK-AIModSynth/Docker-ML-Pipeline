@@ -81,7 +81,6 @@ A virtual machine is a software program that perfectly mimics a physical compute
 Docker Compose is a tool for defining & running multi-container Docker applications. \
 Instead of running each container individually using complex docker run commands, you define the entire application stack—all its services, networks, and volumes—in a single configuration file, typically named docker-compose.yml.
 
-### 🏗️ Core Concepts of Docker Compose
     To save a Docker Compose, use docker-compose.yml
 
 ### 🎯 Why Use Docker Compose?
@@ -89,7 +88,7 @@ Simplifies Development: You can spin up a complex, multi-service environment (li
 Consistency: It ensures that every team member, and every environment (dev, staging), runs the exact same setup.\
 Service Communication: It automatically creates a network for your services, allowing them to communicate using their service names without manual IP configuration.
 
-### Process to use Docker
+## 🏗️ Process to use Docker
 
 ### Prerequisites
     Docker must be installed and running on your system.
