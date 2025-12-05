@@ -84,9 +84,9 @@ Instead of running each container individually using complex docker run commands
     To save a Docker Compose, use docker-compose.yml
 
 ### 🎯 Why Use Docker Compose?
-Simplifies Development: You can spin up a complex, multi-service environment (like a web app connected to a database and a message queue) with one command.\
-Consistency: It ensures that every team member, and every environment (dev, staging), runs the exact same setup.\
-Service Communication: It automatically creates a network for your services, allowing them to communicate using their service names without manual IP configuration.
+- Simplifies Development: You can spin up a complex, multi-service environment (like a web app connected to a database and a message queue) with one command.\
+- Consistency: It ensures that every team member, and every environment (dev, staging), runs the exact same setup.\
+- Service Communication: It automatically creates a network for your services, allowing them to communicate using their service names without manual IP configuration.
 
 ## 🏗️ Process to use Docker
 
